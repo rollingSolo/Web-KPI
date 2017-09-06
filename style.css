@@ -1,0 +1,14 @@
+
+
+
+
+body {
+
+  animation: blink 0.1s linear infinite;
+}
+
+@keyframes blink {
+  50% { color: rgb(34, 34, 34); }
+  51% { color: rgba(34, 34, 34, 0); }
+  100% { color: rgba(34, 34, 34, 0); }
+}
